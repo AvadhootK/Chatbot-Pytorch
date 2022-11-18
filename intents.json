@@ -1,0 +1,149 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you! I am ending the chat now", "Have a nice day. I am ending the chat now", "Bye! Come back again soon. I am ending the chat now"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Anymore help", "Any time! Any more help", "My pleasure, any more assistance"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+            "context": [""]
+        },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "Do you offer help regarding the models of phones"],
+            "responses": ["I can guide you through our services, provide you details regarding phone models, and our policy for repairs", "Offering details about the model you are interested in, our nearest stores,service centres "],
+            "context": [""]
+        },
+
+        {
+            "tag": "repair",
+            "patterns": ["My phone broke and is not responding what should I do?", "Give me a list of your service centres", "The nearest service centre", "My phone fell and the screen is cracked where will it be repaired", "I brought a new phone but its not responding the screen has no cracks what should I do", "I received the delivery of phone yesterday,but there is some internal issue with it", "The product description states that pen is included in the box but its missing in my delivery", "The pen i received with the model yiu889 the screen is not reponding to it", "The accesories i received with my phone are all broken", "The accesssories with my phone are all malfunctioning i want a replacement", "I did not receive earphone in my jseries model", "The charger of my phone is not charging", "My phone seems to show problem with charging", "There are some black spotsappearing on my screen", "My phone fell and now there are pink colour spots occuring on it", "The pixels of my screen is dead how much will it cost to repair it"],
+            "responses": ["We are sorry for inconvinience, please visit our service centres to get the repair", "I am sorry for the inconvinience please visit our service centre"],
+            "context": [""]
+        },
+        {
+            "tag": "enquiry",
+            "patterns": ["Will this product be released?", "When will the product xyb be released?", "What is the price of the jphone series model yuit678?", "Where can I buy the model uioy988?", "When will the model be back in the stock?", "Does the m series model include a pen in the package", "The description stated that the accessories wont cost anything extra but the bill invoice they have charged me for accessories", "Will the earphone be included in the box", "I did not receive earphone in my jseries model"],
+            "responses": ["For purchasing the model please refer to our site samsangofficial.com", "I am trying to connect you to our nearest service provider please give your phone number or email address"],
+            "context": [""]
+        },
+        {
+            "tag": "response ",
+            "patterns": ["99hjiuy@gmail.com", "bccby78@yahoo.com", "xy34z@yolulu.com", "ppojinhgy99@hotmail.com", "56ytu@microsoft.com", "preet5647@yahoo.com", "9876543221", "7896544326", "9415763618", "8888552340", "9909908872", "6754548990"],
+            "responses": ["Thank you for providing the detail We will soon connect to you", "Thank you, you will hear from our service provider soon", "Thank you for providing the detail"],
+            "context": [""]
+        },
+        {
+            "tag": "response_mobile ",
+            "patterns": ["9876543221", "7896544326", "9415763618", "8888552340", "9909908872", "6754548990"],
+            "responses": ["Thank you for providing the detail We will soon connect to you", "Thank you, you will hear from our service provider soon", "Thank you for providing the detail"],
+            "context": [""]
+        },
+        {
+            "tag": "time",
+            "patterns": ["When will the service provider connect to me?Can you give me approximate timing", "When will i get the information, I am not free between 8 to 5 slot I wont be able to pick the call", "Can the service person not talk to me right now?I wont be free", "what if I am not free when I get the call", "Can you tell me when i will get the call", "When will I get the mail", "Will i have to again explain the details to the person?", "My phone is a necessity cannot this process be speeded up?", "I am not free for the day and i dont have the phone with me what should I do?"],
+            "responses": ["The service providers of our company our very busy but I assure you they will reach to you as soon as possible", "Sorry for the inconvinience but approximate time cannot be told it depends upon workload of the day", "We are sorry for inconvinience,But the provider will call you again if you are busy at that moment", "I am sorry for the inconvinience, the provider will call you till the quiry is not resolved"],
+            "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {
+            "tag": "Where_is_answer",
+            "patterns": ["When will my quiry be answered?", "Is the chat still on?", "Are we still in the chat?", "Where are you?are you still navigating?", "Will i get an answer here?", "Where are you?", "What should i do?", "Are you planning on answeringmy question?", "Why are you not responding?"],
+            "responses": ["I am looking for the results it might take few more minutes", "The answer to your quiry is being looked at it might take a few more moments", "The chat is still on", "I am sorry for the delay I will be right back with the answers", "I am looking for results", "This might take a moment"],
+            "context": [""]
+        },
+        {
+            "tag": "more help",
+            "patterns": ["I also wanted to enquire about the in stock price of jyscreen model py-1500", "Can you also help me with the service provided with accessories of this company", "Can you also help me by telling the pricing of the j6 series model", "Can you help me with the 2 years old ui phone model?Is it still manufactured and sold? ", "Can you help me with the service centre policies", "Can you also locate me the neareset store for buying this smartphone", "I also wanted to enquire about my phone i gave fro repairing in the service centre"],
+            "responses": ["Yes sure i will connect you to our service provider, this might take  a moment", "Sure happy to help", "Sure I will connect you to our service provider", "I have informed our service provider of your quiry they will soon reach to you", "sure for checking the prices visit our official site", "soon a service provider will be connected to you for further assistance visit our site"],
+            "context": ["search_pharmacy_by_name"]
+        },
+        {
+            "tag": "search_phone_j6_series",
+            "patterns": ["I need to enquire about the availibility of the j6 series phone?", "I need to enquire about the pricing of the j6 series model py-iop00", "I need to enquire about the release of the j6 series in my area", "I need to enquire about the discount on the accessories of j6 series model yui9900 available at the end of the month", "I need to enquire about the discount available on the j6 series mobiles during the diwali", "I need to enquire about the features of the new j6 series model"],
+            "responses": ["For any enquiry regarding the models of the j6 series phone visit our site samsangj6official", "The features of the j6 series phones can be seen at our official site samsangj6offficial", "The acccessories of the j6 series model will be made visible on our official site samsangj6official.com", "The discount offers are subject to the sales of the area and the market position so I would suggest to keep looking at our official site for further updates about discount "],
+            "context": [""]
+        },
+
+        {
+            "tag": "delivery",
+            "patterns": ["I had placed order 2 days ago when will it be delivered?", "The delivery date has gone i have not received the phone yet", "Are delivery charges applied", "The delivery has been pending since last week", "When will the delivery occur", "If the phone was damaged during delivery", "The warranty card is missing in the phone box", "The warranty period is shown to be started since last month i purchased the phone yesterday", "The box shows the warranty period started before i had even purchased it", "The delivery location was entered wrong", "The delivery date has passed but not yet received", "The delivery was of the wrong model"],
+            "responses": ["Sorry for inconvinience,I will have someone contact you on this", "We apologise for making you worry,I will connect someone", "I will get someone to respod to the quiry"],
+            "context": ["search_hospital_by_type"]
+        },
+        {
+            "tag": "products",
+            "patterns": ["I want  to enqiure about a product", "I want to buy a new phone", "I want to purchase the new model", "I want to buy a phone with good battery backup", "I want to know about the model pyi 990,I want buy it", "I want to purchase the new phone when will it be available for purchase", "Can I purchase the new model by exchanging with my previous model"],
+            "responses": ["Thanks for choosing us, please select a category A SERIES, M SERIES, J6 SERIES"],
+            "context": ["search_hospital_by_type"]
+        },
+        {
+            "tag": "site_not _available",
+            "patterns": ["Your site is showing no details about it", "Your site is not mentioning anything", "The site is not updated with information", "There is nothing mentioned in the site I have already checked it", "The site doesnot have the information I am looking for"],
+            "responses": ["Sorry for inconvinience,I will have someone contact you on this", "I will get someone to respod to the quiry"],
+            "context": ["search_hospital_by_type"]
+        },
+        {
+            "tag": "complaint",
+            "patterns": ["I want to place a complaint", "I want to compalint of misbehaviour from your staff", "I want to report a problem", "I want to report a incident with your staff", "The sale retailer of your company sold me damaged product and then is refusing to exchange it placing blame on me"],
+            "responses": ["Sorry for inconvinience,I will have someone contact you", "We apologise for making you worry,I will connect someone"],
+            "context": ["search_hospital_by_type"]
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["I had placed order 2 days ago when will it be delivered?", "The delivery date has gone i have not received the phone yet", "Are delivery charges applied", "The delivery has been pending since last week", "When will the delivery occur", "If the phone was damaged during delivery", "The warranty card is missing in the phone box", "The warranty period is shown to be started since last month i purchased the phone yesterday", "The box shows the warranty period started before i had even purchased it", "The delivery location was entered wrong", "The delivery date has passed but not yet received", "The delivery was of the wrong model"],
+            "responses": ["Sorry for inconvinience,I will have someone contact you on this", "We apologise for making you worry,I will connect someone", "I will get someone to respod to the quiry"],
+            "context": ["search_hospital_by_type"]
+        },
+        {
+            "tag": "answer_not_helpful",
+            "patterns": ["This is frustrating", "The answer is not helpful", "Where is the answer", "When will you answer my quiry"],
+            "responses": ["Sorry for inconvinience,someone  will just contact you on this"],
+            "context": ["search_hospital_by_type"]
+        },
+        {
+            "tag": "service_centres",
+            "patterns": ["How many service centres are there in this city", "Nearest service centre to me", "Will the products be availbale at Indian electronics branch", "What services are provided at your service centres", "Does the repair occurs at your centres", "Can we purchase products at the service centre"],
+            "responses": ["Loading please wait"],
+            "context": [""]
+        },
+        {
+            "tag": "warranty",
+            "patterns": ["What is the warranty policy of your company", "Does the warranty card is applicable for mechanical damages", "The warranty card states that it covers all damage but the service provider refused for mechanical damage", "I got the wrong warranty card", "The warranty card is missing in my box", "The warranty of my phone started before i purchased it"],
+            "responses": ["I will connect you to someone who can help", "To read our policies please visit our official site samsangofficial.com"],
+            "context": [""]
+        },
+        {
+            "tag": "mseries",
+            "patterns": ["M series model number M667", "I want to purchase a M series model", "I am interested in Mseries", "The latest model of m series", "I want to enquire about the M series "],
+            "responses": ["Please click on the following link to see details-samsangofficialmseries"],
+            "context": [""]
+        },
+        {
+            "tag": "aseries",
+            "patterns": ["A series model number A667", "I want to purchase a A series model", "I am interested in A series", "The latest model of A series", "I want to enquire about the A series "],
+            "responses": ["Please click on the following link to see details-samsangofficialaseries"],
+            "context": [""]
+        },
+        {
+            "tag": "Contact",
+            "patterns": ["Could I get contact details of someone who can help me better?"],
+            "responses": ["Sure! Here's the mail address of Preetesh Sir - preetesh@company.com"],
+            "context": [""]
+        }
+    ]
+}
